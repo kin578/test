@@ -1,0 +1,145 @@
+/* ───────── 전역 ───────── */
+QWidget { background: #0f172a; color: #e5e7eb; }
+*:disabled { color: #9aa4b2; }
+
+/* 컨테이너 */
+QFrame, QGroupBox, QToolBox, QDockWidget, QAbstractScrollArea { background: #0f172a; }
+
+/* 상단 패널(필터/버튼 바) */
+QGroupBox, QFrame#TopBar, QFrame#FilterBar, QWidget#FilterBar {
+  background: #0b1220; border: 1px solid #334155; border-radius: 8px;
+}
+
+/* Placeholder */
+QLineEdit::placeholder,
+QTextEdit[placeholderText],
+QPlainTextEdit::placeholder { color: #94a3b8; }
+
+/* 입력 계열 */
+QLineEdit, QTextEdit, QPlainTextEdit,
+QSpinBox, QDoubleSpinBox, QDateEdit, QTimeEdit, QDateTimeEdit, QComboBox {
+  color: #e5e7eb; background: #0b1220;
+  border: 1px solid #334155; border-radius: 8px;
+  selection-background-color: #4f46e5; selection-color: #ffffff;
+}
+QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus,
+QSpinBox:focus, QDoubleSpinBox:focus, QDateEdit:focus, QTimeEdit:focus, QDateTimeEdit:focus, QComboBox:focus {
+  border-color: #4f46e5;
+}
+
+/* 읽기전용/비활성 */
+QLineEdit:read-only, QTextEdit:read-only, QPlainTextEdit:read-only,
+QSpinBox:read-only, QDoubleSpinBox:read-only {
+  background: #111827; color: #e5e7eb; border-color: #334155;
+}
+QLineEdit:disabled, QTextEdit:disabled, QPlainTextEdit:disabled,
+QSpinBox:disabled, QDoubleSpinBox:disabled, QDateEdit:disabled,
+QTimeEdit:disabled, QDateTimeEdit:disabled, QComboBox:disabled {
+  background: #131c2c; color: #9aa4b2; border-color: #2a364b;
+}
+
+/* ✅ 콤보박스 화살표/드롭다운 */
+QComboBox { padding-right: 30px; }
+QComboBox::drop-down {
+  subcontrol-origin: padding;
+  subcontrol-position: top right;
+  width: 30px;
+  border-left: 1px solid #334155;
+  background: #162235;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+QComboBox::down-arrow {
+  width: 14px; height: 14px;
+  image: url(:/icons/images/icons/cil-arrow-bottom.png);  /* ← 중요! :/icons/ */
+}
+QComboBox::down-arrow:disabled { image: url(:/icons/images/icons/cil-arrow-bottom.png); }
+QComboBox:on { padding-top: 2px; padding-left: 4px; }
+
+/* ✅ 콤보박스 팝업 리스트 */
+QComboBox QAbstractItemView {
+  background: #0b1220; color: #e5e7eb; border: 1px solid #334155;
+  selection-background-color: #1e293b; selection-color: #ffffff;
+}
+
+/* ✅ 스핀박스(및 DateEdit up/down) */
+QAbstractSpinBox { padding-right: 36px; }
+QAbstractSpinBox::up-button, QAbstractSpinBox::down-button {
+  subcontrol-origin: border; width: 18px; background: #162235;
+  border-left: 1px solid #334155;
+}
+QAbstractSpinBox::up-button { subcontrol-position: top right; border-top-right-radius: 8px; }
+QAbstractSpinBox::down-button { subcontrol-position: bottom right; border-bottom-right-radius: 8px; }
+QAbstractSpinBox::up-arrow   { width: 12px; height: 12px; image: url(:/icons/images/icons/cil-arrow-top.png); }
+QAbstractSpinBox::down-arrow { width: 12px; height: 12px; image: url(:/icons/images/icons/cil-arrow-bottom.png); }
+
+/* ✅ 체크박스/라디오 아이콘(미체크/체크) */
+QCheckBox::indicator {
+  width: 16px; height: 16px;
+  border: 1px solid #334155; border-radius: 4px;
+  background: #0b1220;
+}
+QCheckBox::indicator:checked {
+  image: url(:/icons/images/icons/cil-check-alt.png);
+  background: #1e293b; border-color: #4f46e5;
+}
+QRadioButton::indicator { width: 14px; height: 14px; border: 1px solid #334155; border-radius: 7px; background: #0b1220; }
+QRadioButton::indicator:checked { background: #4f46e5; }
+
+/* 버튼 */
+QPushButton {
+  color: #e5e7eb; background: #0b1220;
+  border: 1px solid #334155; border-radius: 8px; padding: 6px 12px;
+}
+QPushButton:hover  { background: #162235; }
+QPushButton:pressed{ background: #1e293b; }
+QPushButton:disabled{ color: #9aa4b2; background: #0f172a; border-color: #2a364b; }
+QPushButton[primary="true"] { color: #ffffff; background: #4f46e5; border-color: #4f46e5; }
+
+/* 표/트리 */
+QTableView, QTableWidget, QTreeView {
+  background: #0f172a; color: #e5e7eb;
+  gridline-color: #334155;
+  selection-background-color: #4f46e5; selection-color: #ffffff;
+  alternate-background-color: #0b1220;
+}
+QHeaderView::section { background: #111827; color: #e5e7eb; border: 1px solid #334155; padding: 6px; }
+QTableCornerButton::section { background: #111827; border: 1px solid #334155; }
+
+/* 탭 */
+QTabWidget::pane { border: 1px solid #334155; background: #0f172a; top: -1px; }
+QTabBar::tab {
+  background: #0b1220; color: #e5e7eb;
+  border: 1px solid #334155; border-bottom: none;
+  padding: 6px 12px; margin-right: 4px;
+  border-top-left-radius: 8px; border-top-right-radius: 8px; font-weight: 600;
+}
+QTabBar::tab:hover { background: #162235; }
+QTabBar::tab:selected {
+  background: #111827; color: #ffffff; border-color: #4f46e5;
+  border-bottom: 3px solid #4f46e5; margin-bottom: -3px;
+}
+QTabBar::tab:!selected { margin-top: 2px; }
+
+/* 메뉴/툴바/툴팁/상태바 */
+QMenuBar { background: #0f172a; color: #e5e7eb; border-bottom: 1px solid #334155; }
+QMenuBar::item { background: transparent; padding: 6px 10px; margin: 0 2px; border-radius: 6px; }
+QMenuBar::item:selected { background: #1e293b; }
+QMenuBar::item:pressed  { background: #162235; }
+
+QMenu { background: #0b1220; border: 1px solid #334155; padding: 4px 0; }
+QMenu::item { padding: 6px 12px; color: #e5e7eb; }
+QMenu::item:selected { background: #1e293b; color: #ffffff; }
+QMenu::separator { height: 1px; background: #334155; margin: 4px 8px; }
+
+QToolBar { background: #0f172a; border-bottom: 1px solid #334155; spacing: 4px; }
+QToolBar::separator { background: #334155; width: 1px; margin: 0 6px; }
+QToolButton {
+  color: #e5e7eb; background: transparent; padding: 6px 10px;
+  border-radius: 6px; border: 1px solid transparent;
+}
+QToolButton:hover  { background: #162235; }
+QToolButton:checked, QToolButton:pressed { background: #1e293b; border-color: #4f46e5; color: #ffffff; }
+
+QStatusBar { color: #e5e7eb; background: #0f172a; }
+QToolTip { color: #e5e7eb; background: rgba(15,23,42,.95); border: 1px solid #334155; }
