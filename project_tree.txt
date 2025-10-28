@@ -1,0 +1,450 @@
+[DIR] /
+  - DS-PT-01-037_이력카드.xlsx (308384 bytes)
+  - DS-PT-02-189_이력카드.xlsx (7032 bytes)
+  - DS-PT-B1-012_이력카드.xlsx (1332716 bytes)
+  - README.md (2980 bytes)
+  - add_user.py (2175 bytes)
+  - app.db (172032 bytes)
+  - app.py (12405 bytes)
+  - app_onedir.spec (2017 bytes)
+  - app_settings.json (648 bytes)
+  - backup_20251022_091650.zip (32067411 bytes)
+  - backup_20251022_135529.zip (3093148 bytes)
+  - build_pydracula_qrc.py (2422 bytes)
+  - crash_guard.py (2060 bytes)
+  - db.py (8366 bytes)
+  - export_cards_batch.py (1285 bytes)
+  - exports.zip (1342336 bytes)
+  - list_tree.py (1647 bytes)
+  - log4cplus.properties (83 bytes)
+  - lux_theme.py (6635 bytes)
+  - models.py (14325 bytes)
+  - no_white_theme.py (5039 bytes)
+  - preview_theme.py (2138 bytes)
+  - project_tree.txt (28012 bytes)
+  - pydracula_loader.py (1411 bytes)
+  - pydracula_overlay.py (1377 bytes)
+  - pydracula_theme.py (1009 bytes)
+  - requirements.txt (82 bytes)
+  - resources_rc.py (157 bytes)
+  - settings.py (6000 bytes)
+  - templates.zip (324331 bytes)
+  - user_session.py (415 bytes)
+  - zip_project.py (2561 bytes)
+  - 설비관리프로그램_20251027_084654.zip (520201748 bytes)
+
+[DIR] assets
+
+[DIR] assets\icons
+  - assets\icons\app.ico (60216 bytes)
+  - assets\icons\app.png (37131 bytes)
+
+[DIR] backups
+
+[DIR] data
+  - data\app.db (106496 bytes)
+
+[DIR] data\equipment
+
+[DIR] data\equipment\DS-PT-01-008
+
+[DIR] data\equipment\EQ-190
+
+[DIR] deploy
+  - deploy\app.spec (3430 bytes)
+  - deploy\build.ps1 (2009 bytes)
+  - deploy\build_onedir.py (2060 bytes)
+
+[DIR] exports
+  - exports\DS-PT-B1-012_이력카드.xlsx (1047162 bytes)
+  - exports\소모품_이력.xlsx (5076 bytes)
+  - exports\소모품_입출고이력.xlsx (5079 bytes)
+  - exports\이력카드_묶음_2대.xlsx (286980 bytes)
+
+[DIR] logs
+  - logs\app_20251023.log (5605 bytes)
+  - logs\app_20251024.log (4839 bytes)
+  - logs\app_20251027.log (5235 bytes)
+  - logs\app_20251028.log (855 bytes)
+
+[DIR] photos
+
+[DIR] photos\DS-PT-02-998
+
+[DIR] photos\DS-PT-02-999
+
+[DIR] photos\EQ-1
+
+[DIR] services
+  - services\accessory_service.py (3134 bytes)
+  - services\audit_log.py (787 bytes)
+  - services\auth_service.py (10500 bytes)
+  - services\backup_service.py (12693 bytes)
+  - services\consumable_service.py (16976 bytes)
+  - services\equipment_service.py (7948 bytes)
+  - services\export_consumable_txn.py (11021 bytes)
+  - services\export_consumables.py (1522 bytes)
+  - services\export_equipment.py (1901 bytes)
+  - services\export_history_card.py (17847 bytes)
+  - services\export_repairs.py (3628 bytes)
+  - services\exporter.py (3665 bytes)
+  - services\exporter_common.py (8300 bytes)
+  - services\importer.py (8239 bytes)
+  - services\importer_diff.py (6890 bytes)
+  - services\photo_service.py (7282 bytes)
+  - services\reason_code_service.py (1314 bytes)
+  - services\repair_service.py (10997 bytes)
+
+[DIR] templates
+  - templates\company_logo.png (15554 bytes)
+  - templates\history_layout.json (349 bytes)
+  - templates\이력카드 샘플.xlsx (311984 bytes)
+
+[DIR] trash
+
+[DIR] trash\photos
+
+[DIR] ui
+  - ui\__init__.py (25 bytes)
+  - ui\dialog_utils.py (6559 bytes)
+  - ui\file_dialog_patch.py (11001 bytes)
+  - ui\history_card_editor.py (3608 bytes)
+  - ui\lazy_tabs.py (1712 bytes)
+  - ui\main_window.py (21295 bytes)
+  - ui\photo_manager.py (4272 bytes)
+  - ui\theme.py (3381 bytes)
+  - ui\utils.py (1717 bytes)
+
+[DIR] ui\dialogs
+  - ui\dialogs\__init__.py (33 bytes)
+  - ui\dialogs\change_log_dialog.py (7117 bytes)
+  - ui\dialogs\diff_merge_dialog.py (4663 bytes)
+  - ui\dialogs\equipment_edit_dialog.py (15096 bytes)
+  - ui\dialogs\login_dialog.py (7699 bytes)
+  - ui\dialogs\new_consumable_dialog.py (1758 bytes)
+  - ui\dialogs\user_admin_dialog.py (10359 bytes)
+
+[DIR] ui\hooks
+  - ui\hooks\prefill_vendor.py (2387 bytes)
+
+[DIR] ui\tabs
+  - ui\tabs\__init__.py (30 bytes)
+  - ui\tabs\consumable_tab.py (17098 bytes)
+  - ui\tabs\equipment_tab.py (27272 bytes)
+  - ui\tabs\export_tab.py (9684 bytes)
+  - ui\tabs\history_tab.py (20179 bytes)
+  - ui\tabs\repair_tab.py (22408 bytes)
+
+[DIR] ui\widgets
+  - ui\widgets\__init__.py (33 bytes)
+  - ui\widgets\droppable_image_label.py (2559 bytes)
+  - ui\widgets\input_double.py (1361 bytes)
+
+[DIR] vendor
+  - vendor\__init__.py (0 bytes)
+
+[DIR] vendor\pydracula
+  - vendor\pydracula\__init__.py (0 bytes)
+  - vendor\pydracula\resources.qrc (47506 bytes)
+
+[DIR] vendor\pydracula\images
+
+[DIR] vendor\pydracula\images\icons
+  - vendor\pydracula\images\icons\cil-3d.png (1953 bytes)
+  - vendor\pydracula\images\icons\cil-4k.png (1948 bytes)
+  - vendor\pydracula\images\icons\cil-account-logout.png (1865 bytes)
+  - vendor\pydracula\images\icons\cil-action-redo.png (1870 bytes)
+  - vendor\pydracula\images\icons\cil-action-undo.png (1882 bytes)
+  - vendor\pydracula\images\icons\cil-airplane-mode-off.png (1987 bytes)
+  - vendor\pydracula\images\icons\cil-airplane-mode.png (1950 bytes)
+  - vendor\pydracula\images\icons\cil-alarm.png (1974 bytes)
+  - vendor\pydracula\images\icons\cil-align-center.png (1839 bytes)
+  - vendor\pydracula\images\icons\cil-align-left.png (1838 bytes)
+  - vendor\pydracula\images\icons\cil-align-right.png (1825 bytes)
+  - vendor\pydracula\images\icons\cil-arrow-bottom-2.png (1797 bytes)
+  - vendor\pydracula\images\icons\cil-arrow-bottom.png (1821 bytes)
+  - vendor\pydracula\images\icons\cil-arrow-circle-bottom.png (1970 bytes)
+  - vendor\pydracula\images\icons\cil-arrow-circle-left.png (1967 bytes)
+  - vendor\pydracula\images\icons\cil-arrow-circle-right.png (1969 bytes)
+  - vendor\pydracula\images\icons\cil-arrow-circle-top.png (1971 bytes)
+  - vendor\pydracula\images\icons\cil-arrow-left.png (1790 bytes)
+  - vendor\pydracula\images\icons\cil-arrow-right.png (1794 bytes)
+  - vendor\pydracula\images\icons\cil-arrow-top.png (1824 bytes)
+  - vendor\pydracula\images\icons\cil-at.png (1975 bytes)
+  - vendor\pydracula\images\icons\cil-av-timer.png (1949 bytes)
+  - vendor\pydracula\images\icons\cil-ban.png (1933 bytes)
+  - vendor\pydracula\images\icons\cil-battery-0.png (1830 bytes)
+  - vendor\pydracula\images\icons\cil-battery-3.png (1913 bytes)
+  - vendor\pydracula\images\icons\cil-battery-5.png (1879 bytes)
+  - vendor\pydracula\images\icons\cil-battery-alert.png (1897 bytes)
+  - vendor\pydracula\images\icons\cil-battery-slash.png (1914 bytes)
+  - vendor\pydracula\images\icons\cil-bell.png (1903 bytes)
+  - vendor\pydracula\images\icons\cil-bluetooth.png (1882 bytes)
+  - vendor\pydracula\images\icons\cil-briefcase.png (1940 bytes)
+  - vendor\pydracula\images\icons\cil-browser.png (1851 bytes)
+  - vendor\pydracula\images\icons\cil-calendar-check.png (1914 bytes)
+  - vendor\pydracula\images\icons\cil-camera-roll.png (1955 bytes)
+  - vendor\pydracula\images\icons\cil-camera.png (1936 bytes)
+  - vendor\pydracula\images\icons\cil-caret-bottom.png (1868 bytes)
+  - vendor\pydracula\images\icons\cil-caret-left.png (1853 bytes)
+  - vendor\pydracula\images\icons\cil-caret-right.png (1863 bytes)
+  - vendor\pydracula\images\icons\cil-caret-top.png (1842 bytes)
+  - vendor\pydracula\images\icons\cil-cart.png (1924 bytes)
+  - vendor\pydracula\images\icons\cil-cast.png (1886 bytes)
+  - vendor\pydracula\images\icons\cil-chart-line.png (1881 bytes)
+  - vendor\pydracula\images\icons\cil-chart-pie.png (1948 bytes)
+  - vendor\pydracula\images\icons\cil-chart.png (1899 bytes)
+  - vendor\pydracula\images\icons\cil-chat-bubble.png (1954 bytes)
+  - vendor\pydracula\images\icons\cil-check-alt.png (1773 bytes)
+  - vendor\pydracula\images\icons\cil-check-circle.png (1965 bytes)
+  - vendor\pydracula\images\icons\cil-check.png (1861 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-bottom.png (1884 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-circle-down-alt.png (1956 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-circle-left-alt.png (1955 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-circle-right-alt.png (1953 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-circle-up-alt.png (1955 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-double-down.png (1956 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-double-left.png (1941 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-double-right.png (1949 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-double-up-alt.png (1840 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-double-up.png (1934 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-left.png (1872 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-right.png (1877 bytes)
+  - vendor\pydracula\images\icons\cil-chevron-top.png (1874 bytes)
+  - vendor\pydracula\images\icons\cil-circle.png (1899 bytes)
+  - vendor\pydracula\images\icons\cil-clipboard.png (1865 bytes)
+  - vendor\pydracula\images\icons\cil-clock.png (1952 bytes)
+  - vendor\pydracula\images\icons\cil-clone.png (1895 bytes)
+  - vendor\pydracula\images\icons\cil-closed-captioning.png (1919 bytes)
+  - vendor\pydracula\images\icons\cil-cloud-download.png (1939 bytes)
+  - vendor\pydracula\images\icons\cil-cloud-upload.png (1947 bytes)
+  - vendor\pydracula\images\icons\cil-cloudy.png (1927 bytes)
+  - vendor\pydracula\images\icons\cil-code.png (1906 bytes)
+  - vendor\pydracula\images\icons\cil-coffee.png (1897 bytes)
+  - vendor\pydracula\images\icons\cil-comment-bubble.png (1933 bytes)
+  - vendor\pydracula\images\icons\cil-comment-square.png (1824 bytes)
+  - vendor\pydracula\images\icons\cil-credit-card.png (1858 bytes)
+  - vendor\pydracula\images\icons\cil-cursor-move.png (1924 bytes)
+  - vendor\pydracula\images\icons\cil-cursor.png (1898 bytes)
+  - vendor\pydracula\images\icons\cil-cut.png (1928 bytes)
+  - vendor\pydracula\images\icons\cil-data-transfer-down.png (1827 bytes)
+  - vendor\pydracula\images\icons\cil-data-transfer-up.png (1833 bytes)
+  - vendor\pydracula\images\icons\cil-deaf.png (1932 bytes)
+  - vendor\pydracula\images\icons\cil-description.png (1922 bytes)
+  - vendor\pydracula\images\icons\cil-devices.png (1916 bytes)
+  - vendor\pydracula\images\icons\cil-dialpad.png (1820 bytes)
+  - vendor\pydracula\images\icons\cil-dog.png (1946 bytes)
+  - vendor\pydracula\images\icons\cil-door.png (1856 bytes)
+  - vendor\pydracula\images\icons\cil-double-quote-sans-left.png (1929 bytes)
+  - vendor\pydracula\images\icons\cil-double-quote-sans-right.png (1931 bytes)
+  - vendor\pydracula\images\icons\cil-drop.png (1895 bytes)
+  - vendor\pydracula\images\icons\cil-envelope-closed.png (1916 bytes)
+  - vendor\pydracula\images\icons\cil-envelope-letter.png (1967 bytes)
+  - vendor\pydracula\images\icons\cil-envelope-open.png (1969 bytes)
+  - vendor\pydracula\images\icons\cil-equalizer.png (1952 bytes)
+  - vendor\pydracula\images\icons\cil-ethernet.png (1851 bytes)
+  - vendor\pydracula\images\icons\cil-exit-to-app.png (1914 bytes)
+  - vendor\pydracula\images\icons\cil-expand-down.png (1896 bytes)
+  - vendor\pydracula\images\icons\cil-expand-left.png (1911 bytes)
+  - vendor\pydracula\images\icons\cil-expand-right.png (1904 bytes)
+  - vendor\pydracula\images\icons\cil-expand-up.png (1902 bytes)
+  - vendor\pydracula\images\icons\cil-exposure.png (1925 bytes)
+  - vendor\pydracula\images\icons\cil-external-link.png (1902 bytes)
+  - vendor\pydracula\images\icons\cil-face-dead.png (1973 bytes)
+  - vendor\pydracula\images\icons\cil-featured-playlist.png (1915 bytes)
+  - vendor\pydracula\images\icons\cil-file.png (1870 bytes)
+  - vendor\pydracula\images\icons\cil-find-in-page.png (1924 bytes)
+  - vendor\pydracula\images\icons\cil-fingerprint.png (1997 bytes)
+  - vendor\pydracula\images\icons\cil-fire.png (1949 bytes)
+  - vendor\pydracula\images\icons\cil-flip-to-back.png (1910 bytes)
+  - vendor\pydracula\images\icons\cil-folder-open.png (1921 bytes)
+  - vendor\pydracula\images\icons\cil-folder.png (1834 bytes)
+  - vendor\pydracula\images\icons\cil-frown.png (1961 bytes)
+  - vendor\pydracula\images\icons\cil-gamepad.png (1977 bytes)
+  - vendor\pydracula\images\icons\cil-hand-point-down.png (1925 bytes)
+  - vendor\pydracula\images\icons\cil-hand-point-left.png (1912 bytes)
+  - vendor\pydracula\images\icons\cil-hand-point-right.png (1909 bytes)
+  - vendor\pydracula\images\icons\cil-hand-point-up.png (1922 bytes)
+  - vendor\pydracula\images\icons\cil-hd.png (1925 bytes)
+  - vendor\pydracula\images\icons\cil-hdr.png (1939 bytes)
+  - vendor\pydracula\images\icons\cil-headphones.png (1899 bytes)
+  - vendor\pydracula\images\icons\cil-heart.png (1899 bytes)
+  - vendor\pydracula\images\icons\cil-highligt.png (1903 bytes)
+  - vendor\pydracula\images\icons\cil-history.png (1966 bytes)
+  - vendor\pydracula\images\icons\cil-home.png (1910 bytes)
+  - vendor\pydracula\images\icons\cil-house.png (1948 bytes)
+  - vendor\pydracula\images\icons\cil-image-plus.png (1963 bytes)
+  - vendor\pydracula\images\icons\cil-image1.png (1951 bytes)
+  - vendor\pydracula\images\icons\cil-infinity.png (1875 bytes)
+  - vendor\pydracula\images\icons\cil-input-power.png (1912 bytes)
+  - vendor\pydracula\images\icons\cil-input.png (1875 bytes)
+  - vendor\pydracula\images\icons\cil-justify-center.png (1818 bytes)
+  - vendor\pydracula\images\icons\cil-justify-left.png (1814 bytes)
+  - vendor\pydracula\images\icons\cil-justify-right.png (1807 bytes)
+  - vendor\pydracula\images\icons\cil-keyboard.png (1890 bytes)
+  - vendor\pydracula\images\icons\cil-laptop.png (1818 bytes)
+  - vendor\pydracula\images\icons\cil-layers.png (1982 bytes)
+  - vendor\pydracula\images\icons\cil-level-down.png (1827 bytes)
+  - vendor\pydracula\images\icons\cil-level-up.png (1826 bytes)
+  - vendor\pydracula\images\icons\cil-library-add.png (1946 bytes)
+  - vendor\pydracula\images\icons\cil-library.png (1875 bytes)
+  - vendor\pydracula\images\icons\cil-lightbulb.png (1929 bytes)
+  - vendor\pydracula\images\icons\cil-link-alt.png (1869 bytes)
+  - vendor\pydracula\images\icons\cil-link-broken.png (1938 bytes)
+  - vendor\pydracula\images\icons\cil-link.png (1904 bytes)
+  - vendor\pydracula\images\icons\cil-location-pin.png (1923 bytes)
+  - vendor\pydracula\images\icons\cil-lock-locked.png (1921 bytes)
+  - vendor\pydracula\images\icons\cil-lock-unlocked.png (1899 bytes)
+  - vendor\pydracula\images\icons\cil-loop-1.png (1948 bytes)
+  - vendor\pydracula\images\icons\cil-loop-circular.png (1899 bytes)
+  - vendor\pydracula\images\icons\cil-loop.png (1892 bytes)
+  - vendor\pydracula\images\icons\cil-low-vision.png (1984 bytes)
+  - vendor\pydracula\images\icons\cil-magnifying-glass.png (1910 bytes)
+  - vendor\pydracula\images\icons\cil-map.png (1908 bytes)
+  - vendor\pydracula\images\icons\cil-media-eject.png (1886 bytes)
+  - vendor\pydracula\images\icons\cil-media-pause.png (1847 bytes)
+  - vendor\pydracula\images\icons\cil-media-play.png (1856 bytes)
+  - vendor\pydracula\images\icons\cil-media-skip-backward.png (1918 bytes)
+  - vendor\pydracula\images\icons\cil-media-skip-forward.png (1919 bytes)
+  - vendor\pydracula\images\icons\cil-media-step-backward.png (1864 bytes)
+  - vendor\pydracula\images\icons\cil-media-step-forward.png (1869 bytes)
+  - vendor\pydracula\images\icons\cil-media-stop.png (1800 bytes)
+  - vendor\pydracula\images\icons\cil-medical-cross.png (1908 bytes)
+  - vendor\pydracula\images\icons\cil-meh.png (1959 bytes)
+  - vendor\pydracula\images\icons\cil-menu.png (1775 bytes)
+  - vendor\pydracula\images\icons\cil-microphone.png (1923 bytes)
+  - vendor\pydracula\images\icons\cil-minus.png (1697 bytes)
+  - vendor\pydracula\images\icons\cil-mobile-landscape.png (1858 bytes)
+  - vendor\pydracula\images\icons\cil-mobile.png (1906 bytes)
+  - vendor\pydracula\images\icons\cil-mood-bad.png (1968 bytes)
+  - vendor\pydracula\images\icons\cil-mood-good.png (1962 bytes)
+  - vendor\pydracula\images\icons\cil-mood-very-bad.png (1978 bytes)
+  - vendor\pydracula\images\icons\cil-mood-very-good.png (1969 bytes)
+  - vendor\pydracula\images\icons\cil-moon.png (1918 bytes)
+  - vendor\pydracula\images\icons\cil-mouse.png (1924 bytes)
+  - vendor\pydracula\images\icons\cil-move.png (1914 bytes)
+  - vendor\pydracula\images\icons\cil-movie.png (2000 bytes)
+  - vendor\pydracula\images\icons\cil-mug-tea.png (1974 bytes)
+  - vendor\pydracula\images\icons\cil-mug.png (1911 bytes)
+  - vendor\pydracula\images\icons\cil-notes.png (1883 bytes)
+  - vendor\pydracula\images\icons\cil-options-horizontal.png (1827 bytes)
+  - vendor\pydracula\images\icons\cil-options.png (1819 bytes)
+  - vendor\pydracula\images\icons\cil-paint-bucket.png (1953 bytes)
+  - vendor\pydracula\images\icons\cil-paper-plane.png (1928 bytes)
+  - vendor\pydracula\images\icons\cil-paperclip.png (1905 bytes)
+  - vendor\pydracula\images\icons\cil-paragraph.png (1881 bytes)
+  - vendor\pydracula\images\icons\cil-pen-alt.png (1917 bytes)
+  - vendor\pydracula\images\icons\cil-pencil.png (1875 bytes)
+  - vendor\pydracula\images\icons\cil-people.png (1974 bytes)
+  - vendor\pydracula\images\icons\cil-phone.png (1889 bytes)
+  - vendor\pydracula\images\icons\cil-pin.png (1933 bytes)
+  - vendor\pydracula\images\icons\cil-plus.png (1791 bytes)
+  - vendor\pydracula\images\icons\cil-power-standby.png (1927 bytes)
+  - vendor\pydracula\images\icons\cil-print.png (1970 bytes)
+  - vendor\pydracula\images\icons\cil-rectangle.png (1784 bytes)
+  - vendor\pydracula\images\icons\cil-reload.png (1917 bytes)
+  - vendor\pydracula\images\icons\cil-remove.png (1924 bytes)
+  - vendor\pydracula\images\icons\cil-rss.png (1956 bytes)
+  - vendor\pydracula\images\icons\cil-satelite.png (1944 bytes)
+  - vendor\pydracula\images\icons\cil-save.png (1935 bytes)
+  - vendor\pydracula\images\icons\cil-screen-desktop.png (1851 bytes)
+  - vendor\pydracula\images\icons\cil-screen-smartphone.png (1854 bytes)
+  - vendor\pydracula\images\icons\cil-settings.png (1970 bytes)
+  - vendor\pydracula\images\icons\cil-share-boxed.png (1973 bytes)
+  - vendor\pydracula\images\icons\cil-share.png (1921 bytes)
+  - vendor\pydracula\images\icons\cil-signal-cellular-0.png (1790 bytes)
+  - vendor\pydracula\images\icons\cil-signal-cellular-3.png (1872 bytes)
+  - vendor\pydracula\images\icons\cil-size-grip.png (1989 bytes)
+  - vendor\pydracula\images\icons\cil-smile.png (1967 bytes)
+  - vendor\pydracula\images\icons\cil-speaker.png (1942 bytes)
+  - vendor\pydracula\images\icons\cil-speech.png (1886 bytes)
+  - vendor\pydracula\images\icons\cil-speedometer.png (1963 bytes)
+  - vendor\pydracula\images\icons\cil-star.png (1934 bytes)
+  - vendor\pydracula\images\icons\cil-tags.png (1942 bytes)
+  - vendor\pydracula\images\icons\cil-task.png (1952 bytes)
+  - vendor\pydracula\images\icons\cil-terminal.png (1889 bytes)
+  - vendor\pydracula\images\icons\cil-text-size.png (1910 bytes)
+  - vendor\pydracula\images\icons\cil-text-square.png (1896 bytes)
+  - vendor\pydracula\images\icons\cil-text.png (1850 bytes)
+  - vendor\pydracula\images\icons\cil-thumb-down.png (1942 bytes)
+  - vendor\pydracula\images\icons\cil-thumb-up.png (1943 bytes)
+  - vendor\pydracula\images\icons\cil-transfer.png (1869 bytes)
+  - vendor\pydracula\images\icons\cil-triangle.png (1862 bytes)
+  - vendor\pydracula\images\icons\cil-truck.png (1977 bytes)
+  - vendor\pydracula\images\icons\cil-user-female.png (1925 bytes)
+  - vendor\pydracula\images\icons\cil-user-follow.png (1916 bytes)
+  - vendor\pydracula\images\icons\cil-user-unfollow.png (1942 bytes)
+  - vendor\pydracula\images\icons\cil-user.png (1888 bytes)
+  - vendor\pydracula\images\icons\cil-vertical-align-bottom.png (1799 bytes)
+  - vendor\pydracula\images\icons\cil-view-column.png (1863 bytes)
+  - vendor\pydracula\images\icons\cil-view-module.png (1942 bytes)
+  - vendor\pydracula\images\icons\cil-view-quilt.png (1899 bytes)
+  - vendor\pydracula\images\icons\cil-view-stream.png (1820 bytes)
+  - vendor\pydracula\images\icons\cil-voice-over-record.png (1955 bytes)
+  - vendor\pydracula\images\icons\cil-volume-high.png (1986 bytes)
+  - vendor\pydracula\images\icons\cil-volume-low.png (1936 bytes)
+  - vendor\pydracula\images\icons\cil-volume-off.png (1945 bytes)
+  - vendor\pydracula\images\icons\cil-wallet.png (1865 bytes)
+  - vendor\pydracula\images\icons\cil-watch.png (1915 bytes)
+  - vendor\pydracula\images\icons\cil-wifi-signal-0.png (1903 bytes)
+  - vendor\pydracula\images\icons\cil-wifi-signal-1.png (1921 bytes)
+  - vendor\pydracula\images\icons\cil-wifi-signal-2.png (1944 bytes)
+  - vendor\pydracula\images\icons\cil-wifi-signal-4.png (1973 bytes)
+  - vendor\pydracula\images\icons\cil-wifi-signal-off.png (1955 bytes)
+  - vendor\pydracula\images\icons\cil-window-maximize.png (1817 bytes)
+  - vendor\pydracula\images\icons\cil-window-minimize.png (1689 bytes)
+  - vendor\pydracula\images\icons\cil-window-restore.png (1915 bytes)
+  - vendor\pydracula\images\icons\cil-wrap-text.png (1876 bytes)
+  - vendor\pydracula\images\icons\cil-x-circle.png (1970 bytes)
+  - vendor\pydracula\images\icons\cil-x.png (1844 bytes)
+  - vendor\pydracula\images\icons\cil-zoom-in.png (1945 bytes)
+  - vendor\pydracula\images\icons\cil-zoom-out.png (1938 bytes)
+  - vendor\pydracula\images\icons\icon_close.png (210 bytes)
+  - vendor\pydracula\images\icons\icon_maximize.png (248 bytes)
+  - vendor\pydracula\images\icons\icon_menu.png (248 bytes)
+  - vendor\pydracula\images\icons\icon_minimize.png (172 bytes)
+  - vendor\pydracula\images\icons\icon_restore.png (322 bytes)
+  - vendor\pydracula\images\icons\icon_settings.png (386 bytes)
+
+[DIR] vendor\pydracula\images\images
+  - vendor\pydracula\images\images\PyDracula.png (2584 bytes)
+  - vendor\pydracula\images\images\PyDracula_horizontal.png (9738 bytes)
+  - vendor\pydracula\images\images\PyDracula_vertical.png (29888 bytes)
+
+[DIR] vendor\pydracula\modules
+  - vendor\pydracula\modules\__init__.py (0 bytes)
+  - vendor\pydracula\modules\resources_rc.py (1016292 bytes)
+
+[DIR] vendor\pydracula\themes
+  - vendor\pydracula\themes\py_dracula_dark.qss (14119 bytes)
+  - vendor\pydracula\themes\py_dracula_dark_overlay.qss (6131 bytes)
+
+[DIR] vendor\pydracula\widgets
+  - vendor\pydracula\widgets\__init__.py (0 bytes)
+
+# Quick search
+  * exports.zip
+  * export_cards_batch.py
+  * services\accessory_service.py
+  * services\auth_service.py
+  * services\backup_service.py
+  * services\consumable_service.py
+  * services\equipment_service.py
+  * services\exporter.py
+  * services\exporter_common.py
+  * services\export_consumables.py
+  * services\export_consumable_txn.py
+  * services\export_equipment.py
+  * services\export_history_card.py
+  * services\export_repairs.py
+  * services\photo_service.py
+  * services\reason_code_service.py
+  * services\repair_service.py
+  * ui\history_card_editor.py
+  * ui\lazy_tabs.py
+  * ui\dialogs\equipment_edit_dialog.py
+  * ui\tabs\consumable_tab.py
+  * ui\tabs\equipment_tab.py
+  * ui\tabs\export_tab.py
+  * ui\tabs\history_tab.py
+  * ui\tabs\repair_tab.py

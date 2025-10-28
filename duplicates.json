@@ -1,0 +1,10 @@
+{
+  "duplicates": [
+    [
+      "vendor/__init__.py",
+      "vendor/pydracula/__init__.py",
+      "vendor/pydracula/modules/__init__.py",
+      "vendor/pydracula/widgets/__init__.py"
+    ]
+  ]
+}

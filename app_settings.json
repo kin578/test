@@ -1,0 +1,24 @@
+{
+  "default_save_dir": "C:\\Users\\shin kim\\Desktop",
+  "last_save_dir": "C:/Users/1226k/OneDrive/Desktop",
+  "reason_presets": [
+    "정기보충",
+    "수리 사용",
+    "라인전환",
+    "불량폐기",
+    "반납",
+    "재고조정(+)",
+    "재고조정(-)"
+  ],
+  "reason_favorites": [
+    "수리 사용",
+    "정기보충"
+  ],
+  "db_dir": "\\\\192.168.2.4\\new생산팀\\생산기술파트\\db",
+  "db_file": "app.db",
+  "db_url": "",
+  "photo_root_dir": "\\\\192.168.2.4\\new생산팀\\생산기술파트\\photos",
+  "photo_trash_dir": "",
+  "last_login_name": "김성중",
+  "remember_login_name": true
+}
